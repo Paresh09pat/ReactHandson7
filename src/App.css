@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(orange, white, green);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  .navbar {
+    background-color: rgb(68, 230, 241);
+    height: 70px;
+  }
+  
+  .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+  }
+  .item {
+    margin-left: 250px;
+    padding: px;
+  }
+  .link {
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 4px 4px 5px yellowgreen;
+  }
+  .link:hover {
+    color: rgb(205, 240, 136);
+    text-decoration: none;
+    text-shadow: 4px 4px 4px rgb(144, 7, 144);
+  }
+  h1 {
+    font-weight: bolder;
+    margin: 10px;
+  }
+  .tab {
+    width: 800px;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 380px;
+    color: rgb(5, 80, 154);
+  
+  }
+  .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .new {
+    height: 50px;
+    padding: 0px 25px 0px 25px;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: rgb(72, 234, 180);
+    cursor: pointer;
+    border-radius: 25px;
+    color: rgb(207, 45, 8);
+  }
+  .new:hover {
+    background-color: brown;
+    color: chartreuse;
+  }
+  .container {
+    margin: 40px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .input {
+    margin: 50px;
+    width: 40%;
+    height: 80px;
+    border-radius: 25px;
+  
+  }
+  .button {
+    margin: 10px;
+    width: 20%;
+    height: 25%;
+    font-size: xx-large;
+  }
+  
+  .twobtn{
+    margin-left: 550px;
+  }
+  
+  .neeeee {
+    background-color: rgb(61, 250, 187);
+    text-align: center;
+  }
+  
