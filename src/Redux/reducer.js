@@ -1,4 +1,4 @@
-import { ADD, DELETE, EDIT } from "./action";
+import { ADD, EDIT } from "./action";
 
 const initialState ={
     students :[]
@@ -11,7 +11,7 @@ export const main_Reducer = (state=initialState,action) =>{
         }
         case EDIT:
             const edituserIndex = state.students.indexOf(
-                (student)=> student.id === action.payload.id
+                (students)=> students.id === action.payload.id
             );
             state.students[edituserIndex] = action.payload.data
             

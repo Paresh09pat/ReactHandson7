@@ -1,4 +1,4 @@
-import { ADD_STUDENT, DEL_STUDENT, EDIT_STUDENT } from "./constant"
+import { ADD_STUDENT, EDIT_STUDENT } from "./constant"
 
 export const ADD = () =>{
     return{
@@ -12,8 +12,3 @@ export const EDIT = () =>{
     }
 }
 
-export const DELETE = () =>{
-    return{
-        type:DEL_STUDENT
-    }
-}

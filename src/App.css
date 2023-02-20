@@ -16,8 +16,8 @@ body {
     padding-bottom: 15px;
   }
   .item {
-    margin-left: 250px;
-    padding: px;
+    margin-left: 150px;
+   
   }
   .link {
     color: crimson;
@@ -49,15 +49,43 @@ body {
     margin: 10px;
   }
   .new {
-    height: 50px;
+    height: 40px;
+    width: 170px;
     padding: 0px 25px 0px 25px;
-    font-size: x-large;
+    font-size: large;
     font-weight: 500;
-    background-color: rgb(72, 234, 180);
+    background-color:rgb(149, 209, 59);
     cursor: pointer;
-    border-radius: 25px;
-    color: rgb(207, 45, 8);
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
   }
+  .new1 {
+    height: 40px;
+    width: 170px;
+    padding: 0px 25px 0px 25px;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(16, 233, 245);
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 500px;
+  }
+  .new2 {
+    height: 40px;
+    width: 170px;
+    padding: 0px 25px 0px 25px;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(241, 187, 89);
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+  }
+
   .new:hover {
     background-color: brown;
     color: chartreuse;
@@ -74,7 +102,7 @@ body {
     width: 40%;
     height: 80px;
     border-radius: 25px;
-  
+  text-align: center;
   }
   .button {
     margin: 10px;
@@ -92,3 +120,6 @@ body {
     text-align: center;
   }
   
+  .table-primary{
+    text-align: center;
+  }

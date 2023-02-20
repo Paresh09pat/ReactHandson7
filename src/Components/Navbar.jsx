@@ -11,10 +11,13 @@ function Navbar() {
                         <Link className="link" aria-current="page" to="/Home">Home</Link>
                     </li>
                     <li className="item">
-                        <Link className="link" to="/Students">Students</Link>
+                        <Link className="link" to="/Students">All Scenarios</Link>
                     </li>
                     <li className="item">
-                        <Link className="link" to="/Contectus">Contact Us</Link>
+                        <Link className="link" to="/AddScenario"> Add Scenario </Link>
+                    </li>
+                    <li className="item">
+                        <Link className="link" to="/AddVehicle"> Add Vehicle </Link>
                     </li>
                 </ul>
             </nav>

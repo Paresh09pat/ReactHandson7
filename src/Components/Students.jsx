@@ -51,9 +51,15 @@ const addData = () => {
       {hide ? null : (
         <>
           <div className="con">
-            <h1>Student Details</h1>
-            <button className="new" onClick={() => {setHide(!hide);}}>
-              Add New Student
+            <h1>All Scenarios</h1>
+            <button className="new1" >
+              New Scenario
+            </button>
+            <button className="new" onClick={() => {setHide(!hide)}}>
+              Add Vehicle
+            </button>
+            <button className="new2">
+              Delete All
             </button>
           </div>
 
@@ -61,23 +67,14 @@ const addData = () => {
             <table className="table table-bordered">
               <thead>
                 <tr className="neeeee">
-                  <th>Name</th>
-                  <th>Age</th>
-                  <th>Course</th>
-                  <th>Batch</th>
+                  <th>Scenario Id</th>
+                  <th>Scenario Name</th>
+                  <th>Scenario Time</th>
+                  <th>Number of Vehicles</th>
                   <th>Change</th>
                 </tr>
               </thead>
 
-              <tbody>
-                <tr className="table-primary">
-                  <td>Parth</td>
-                  <td>24</td>
-                  <td>MERN</td>
-                  <td>July</td>
-                  <td>Edit</td>
-                </tr>
-              </tbody>
 
               <tbody>
                 {data && data.map((row) => (
@@ -104,7 +101,7 @@ const addData = () => {
               name="name"
               value={store.name}
               label="Name"
-              placeholder="Add Name here . . ."
+              placeholder="Add Scenario Id here . . ."
               onChange={editHandler}
               className="input"
             />
@@ -112,7 +109,7 @@ const addData = () => {
               name="age"
               value={store.age}
               label="Age"
-              placeholder="Add Age here . . ."
+              placeholder="Add Scenario Name here . . ."
               onChange={editHandler}
               className="input"
             />
@@ -120,7 +117,7 @@ const addData = () => {
               name="course"
               value={store.course}
               label="course"
-              placeholder="Add Course here . . ."
+              placeholder="Add Scenario Time here . . ."
               onChange={editHandler}
               className="input"
             />
@@ -128,7 +125,7 @@ const addData = () => {
               name="batch"
               value={store.batch}
               label="Batch"
-              placeholder="Add Batch here . . ."
+              placeholder="Add Number of Vehicles here . . ."
               onChange={editHandler}
               className="input"
             />
